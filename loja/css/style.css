@@ -1,0 +1,262 @@
+* {
+    /* configurando o corpo da página */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* cabeçalho */
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.container {
+    /* onde contém as listas de opções */
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+    /*background-color: red;*/
+
+}
+
+.logo {
+    /* definindo posição do meu logo */
+    position: relative;
+    background-image: url('../img/logo.png');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 60px;
+    float: left;
+
+}
+
+nav.desktop {
+    /* desativando os itens da lista */
+    float: right;
+
+}
+
+nav.desktop ul {
+    /* desativando os itens linha */
+    list-style-type: none;
+
+}
+
+nav.desktop li {
+    display: inline-block;
+    margin: 015px;
+}
+
+nav.desktop a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav li.btn-orcamento {
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid #F26E50;
+
+}
+
+div.chamada-mkt {
+    padding: 70px 0;
+}
+
+div.chamada-mkt h2 {
+    font-size: 45px;
+    color: #F26E50;
+
+}
+
+div.chamada-mkt p {
+    color: #211159;
+    font-size: 20px;
+}
+
+div.chamada-mkt form {
+    margin-top: 10px;
+}
+
+div.chamada-mkt input[type=email]
+
+/* Definindo o type de INPUT = email*/
+    {
+    width: 160px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #211159;
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+    padding-left: 13px;
+
+}
+
+div.chamada-mkt input[type=email]:focus {
+    outline: 0;
+}
+
+div.chamada-mkt input[type=submit]
+
+/* Definindo outro input = submit */
+    {
+    background-color: #F29D52;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+.sessao-01 {
+    /* trabalhando a section */
+    text-align: center;
+    padding: 50px 0;
+    text-shadow: 0 0 2px #211159, 0 0 4px black;
+    /*  background-color: #211159;*/
+}
+
+
+.descricao-produto {
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+    color: #F257C9;
+}
+
+.clear {
+    clear: both;
+}
+
+.descricao-produto h3 {
+    color: #F257C9;
+    font-size: 23px;
+
+}
+
+.descricao-produto p {
+    margin-top: 15px;
+    color: #F26E50;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.sessao-01 img {
+    width: 40%;
+    float: left;
+    max-width: 400px;
+
+}
+
+.sessao-02>.container {
+    background-image: url(../img/fotoFeedback\ \(2\).png);
+    background-size: cover;
+    position: relative;
+    max-width: 1000px;
+    min-height: 350px;
+
+}
+
+.feedback {
+    position: absolute;
+    left: 60%;
+    width: 70%;
+    background: white;
+    bottom: -30px;
+    max-width: 500px;
+    box-shadow: 0 9px 30px 0 rgba(17, 17, 17, 0.9);
+
+}
+
+.feedback p {
+    font-size: 19px;
+    color: #211159;
+    font-weight: bold;
+}
+
+.sessao-03 {
+    padding: 15px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.sessao-03 div {
+    width: 27%;
+    display: inline-block;
+    position: relative;
+    /* background-color: black;*/
+    margin: 11px;
+    height: 274px;
+}
+
+.sessao-03>.produtoVendas {
+
+    position: relative;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+}
+
+.sessao-03>.produtoVendas2 {
+    position: relative;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+}
+
+.sessao-03>.produtoVendas3 {
+    position: relative;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+}
+
+div.produtoVendas input[type=submit] {
+    background-color: #F29D52;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+div.produtoVendas2 input[type=submit] {
+    background-color: #F29D52;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+div.produtoVendas3 input[type=submit] {
+    background-color: #F29D52;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+.sessao-04 {
+    padding: 50px;
+    text-align: center;
+    margin-top: 300px;
+
+}
+
+.patrocinadores .container {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+    height: 274px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
